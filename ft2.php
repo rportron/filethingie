@@ -1825,8 +1825,7 @@ if (headers_sent()) {
   }
   $str .= ft_make_footer();
 }
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+?><!doctype html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo LANG;?>" lang="<?php echo LANG;?>">
 <head>
@@ -1835,6 +1834,7 @@ if (headers_sent()) {
 	<link rel="author" href="http://www.solitude.dk/" title="Andreas Haugstrup Pedersen" />
 	<link rel="home" href="<?php echo ft_get_self();?>" title="<?php echo t('Go to home folder');?>" />
 	<link rel="help" href="http://www.solitude.dk/filethingie/documentation" title="<?php echo t('Online documentation');?>" />
+	<link rel=stylesheet type="text/css" href="css/ft.css" />
 
 <?php ft_make_scripts();?>
 
