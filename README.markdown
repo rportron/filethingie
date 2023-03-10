@@ -5,4 +5,4 @@ File Thingie was one of his very first PHP projects.
 
 See the original Github project: [https://github.com/leefish/filethingie/](https://github.com/leefish/filethingie/)
 
-Unfortunately there was no update since 9 years.
+Unfortunately there was no update since 2012...
